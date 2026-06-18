@@ -4,6 +4,10 @@
 
 ```bash
 sudo nvim /etc/subuid
+```
+
+
+```
 sudo nvim /etc/subgid
 ```
 
