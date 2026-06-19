@@ -5,12 +5,16 @@
 ```bash
 sudo nvim /etc/subuid
 ```
-
+```
+[user]:100000:65536
+```
 
 ```
 sudo nvim /etc/subgid
 ```
-
+```
+[user]:100000:65536
+```
 ## 2. Aktifkan Podman
 
 ```bash
@@ -177,4 +181,21 @@ networks:
             config:
               - subnet: "172.18.1.0/24"
 ```
+### Jalankan 
 
+```
+sudo chmod -R 777 app/slims
+```
+### cek browser
+```
+http://ip:8080
+```
+```
+sudo firewall-cmd --zone=public --add-
+```
+```
+port=80/tcp --permanent
+```
+```
+sudo firewall-cmd --reload
+```
